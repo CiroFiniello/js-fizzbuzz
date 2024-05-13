@@ -10,5 +10,8 @@ for(let count=1; count <= 100; count++){
     }else if(count % 5 === 0){
         content = 'Buzz';
     }   
+    const newArticle = document.createElement('article');
+    newArticle.append(content);
+    containerEl.appendChild(newArticle);
     console.log(content);
 }
