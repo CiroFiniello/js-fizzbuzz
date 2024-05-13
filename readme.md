@@ -21,7 +21,8 @@ se il numero è divisibile per 3 : stamperà fizz ,
 se il numero è divisibile per 5 stamperà buzz .
 <!-- ----------Bonus 1---------  -->
 Procediamo con i bonus, allora il primo ci chiede innanzitutto di creare un container nel dom, quindi procediamo così,
-una volta creato e provato, lo elimino dal dom, sicuro della classe che andrà poi applicata ai numeri,
+una volta creato, creo degli article per poter creare la classe, la provo, e poi elimino l'article dal doom 
+ sicuro della classe che andrà poi applicata ai numeri,
 procedo richiamando l'elemento container in una costante che sarà il container,
 poi creo un'altra variabile, che corrisponderà al contatore, ovviamente la variabile in questione sarà creata fuori dallo scope,
  e verrà poi assegnata all'interno dello stesso in base al contenuto.
